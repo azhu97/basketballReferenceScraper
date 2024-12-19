@@ -5,8 +5,19 @@
 
 import scrapy
 
-
 class BballrefscraperItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    _id = scrapy.Field()
+    offensive_rating = scrapy.Field()
+    defensive_rating = scrapy.Field()
+    pace = scrapy.Field()
+    standing = scrapy.Field()
+    coach = scrapy.Field()
+    record = scrapy.Field()
+    wins = scrapy.Field()
+    losses = scrapy.Field()
+    net_rating = scrapy.Field()
+    name = scrapy.Field()
+
     pass
